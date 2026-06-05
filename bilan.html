@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bilan BUT GEII – Sylvestre Ibara</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-900 selection:bg-orange-200 min-h-screen">
+
+  <main class="max-w-5xl mx-auto px-4 py-12 space-y-12">
+
+    <!-- En-tête -->
+    <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-8 space-y-4">
+      <a href="butgeii.html" class="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-orange-500 transition-colors mb-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7"/>
+        </svg>
+        Retour à la cartographie
+      </a>
+      <div>
+        <p class="text-xs font-bold uppercase tracking-widest text-orange-500">BUT GEII – Parcours ESE</p>
+        <h1 class="text-3xl font-bold text-slate-900 mt-1">Bilan global des apprentissages critiques</h1>
+        <p class="text-sm text-slate-500 mt-2">Vue synthétique de l'ensemble des ACs sur les 3 années de BUT.</p>
+      </div>
+
+      <!-- Légende -->
+      <div class="flex flex-wrap gap-4 pt-2">
+        <span class="flex items-center gap-2 text-xs font-medium text-slate-600"><span class="w-3 h-3 rounded-full bg-slate-200 inline-block"></span> Débutant</span>
+        <span class="flex items-center gap-2 text-xs font-medium text-slate-600"><span class="w-3 h-3 rounded-full bg-orange-200 inline-block"></span> En progression</span>
+        <span class="flex items-center gap-2 text-xs font-medium text-slate-600"><span class="w-3 h-3 rounded-full bg-orange-400 inline-block"></span> Compétent</span>
+        <span class="flex items-center gap-2 text-xs font-medium text-slate-600"><span class="w-3 h-3 rounded-full bg-slate-900 inline-block"></span> Maîtrisé</span>
+      </div>
+
+      <!-- Compteurs -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 pt-2">
+        <div class="bg-slate-50 rounded-xl p-4 text-center border border-slate-100">
+          <p class="text-2xl font-bold text-slate-900">30</p>
+          <p class="text-xs text-slate-500 mt-1">ACs au total</p>
+        </div>
+        <div class="bg-slate-50 rounded-xl p-4 text-center border border-slate-100">
+          <p class="text-2xl font-bold text-slate-900">5</p>
+          <p class="text-xs text-slate-500 mt-1">Maîtrisés</p>
+        </div>
+        <div class="bg-orange-50 rounded-xl p-4 text-center border border-orange-100">
+          <p class="text-2xl font-bold text-orange-500">13</p>
+          <p class="text-xs text-slate-500 mt-1">Compétents</p>
+        </div>
+        <div class="bg-slate-50 rounded-xl p-4 text-center border border-slate-100">
+          <p class="text-2xl font-bold text-slate-400">12</p>
+          <p class="text-xs text-slate-500 mt-1">En progression / Débutant</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- CONCEVOIR -->
+    <section class="space-y-4">
+      <div class="flex items-center gap-3">
+        <div class="w-1.5 h-7 bg-orange-500 rounded-full"></div>
+        <h2 class="text-xl font-bold text-slate-900">Concevoir</h2>
+        <span class="text-xs text-slate-400 font-medium">Analyser un besoin et proposer une solution technique</span>
+      </div>
+
+      <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-slate-50 border-b border-slate-100 text-left">
+              <th class="px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider w-32">Code</th>
+              <th class="px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">Apprentissage critique</th>
+              <th class="px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider w-36 text-center">Niveau</th>
+              <th class="px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider w-28 text-center">Preuve</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-50">
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC11.01</span></td>
+              <td class="px-5 py-4 text-slate-700">Produire une analyse fonctionnelle d'un système simple</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-600"><span class="w-2.5 h-2.5 rounded-full bg-orange-400 inline-block"></span>Compétent</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac11-01" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC11.02</span></td>
+              <td class="px-5 py-4 text-slate-700">Réaliser un prototype pour des solutions techniques matériel et/ou logiciel</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-800"><span class="w-2.5 h-2.5 rounded-full bg-slate-900 inline-block"></span>Maîtrisé</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac11-02" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC11.03</span></td>
+              <td class="px-5 py-4 text-slate-700">Rédiger un dossier de fabrication à partir d'un dossier de conception</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-400"><span class="w-2.5 h-2.5 rounded-full bg-orange-200 inline-block"></span>En progression</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac11-03" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC21.01</span></td>
+              <td class="px-5 py-4 text-slate-700">Proposer des solutions techniques liées à l'analyse fonctionnelle</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-600"><span class="w-2.5 h-2.5 rounded-full bg-orange-400 inline-block"></span>Compétent</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac21-01" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC21.02</span></td>
+              <td class="px-5 py-4 text-slate-700">Dé-risquer les solutions techniques retenues</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-400"><span class="w-2.5 h-2.5 rounded-full bg-orange-200 inline-block"></span>En progression</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac21-02" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC31.01</span></td>
+              <td class="px-5 py-4 text-slate-700">Contribuer à la rédaction d'un cahier des charges</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-600"><span class="w-2.5 h-2.5 rounded-full bg-orange-400 inline-block"></span>Compétent</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac31-01" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC31.02</span></td>
+              <td class="px-5 py-4 text-slate-700">Prouver la pertinence de ses choix technologiques</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-800"><span class="w-2.5 h-2.5 rounded-full bg-slate-900 inline-block"></span>Maîtrisé</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac31-02" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC31.03</span></td>
+              <td class="px-5 py-4 text-slate-700">Rédiger un dossier de conception</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-400"><span class="w-2.5 h-2.5 rounded-full bg-orange-200 inline-block"></span>En progression</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac31-03" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- VÉRIFIER -->
+    <section class="space-y-4">
+      <div class="flex items-center gap-3">
+        <div class="w-1.5 h-7 bg-orange-500 rounded-full"></div>
+        <h2 class="text-xl font-bold text-slate-900">Vérifier</h2>
+        <span class="text-xs text-slate-400 font-medium">Tester, mesurer et corriger les dysfonctionnements</span>
+      </div>
+
+      <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-slate-50 border-b border-slate-100 text-left">
+              <th class="px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider w-32">Code</th>
+              <th class="px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">Apprentissage critique</th>
+              <th class="px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider w-36 text-center">Niveau</th>
+              <th class="px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider w-28 text-center">Preuve</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-50">
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC12.01</span></td>
+              <td class="px-5 py-4 text-slate-700">Appliquer une procédure d'essais</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-800"><span class="w-2.5 h-2.5 rounded-full bg-slate-900 inline-block"></span>Maîtrisé</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac12-01" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC12.02</span></td>
+              <td class="px-5 py-4 text-slate-700">Identifier un dysfonctionnement</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-600"><span class="w-2.5 h-2.5 rounded-full bg-orange-400 inline-block"></span>Compétent</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac12-02" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC12.03</span></td>
+              <td class="px-5 py-4 text-slate-700">Décrire un dysfonctionnement</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-600"><span class="w-2.5 h-2.5 rounded-full bg-orange-400 inline-block"></span>Compétent</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac12-03" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC22.01</span></td>
+              <td class="px-5 py-4 text-slate-700">Identifier les tests et mesures pour valider le fonctionnement d'un système</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-800"><span class="w-2.5 h-2.5 rounded-full bg-slate-900 inline-block"></span>Maîtrisé</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac22-01" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC22.02</span></td>
+              <td class="px-5 py-4 text-slate-700">Certifier le fonctionnement d'un nouvel équipement industriel</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-400"><span class="w-2.5 h-2.5 rounded-full bg-orange-200 inline-block"></span>En progression</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac22-02" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC32.01</span></td>
+              <td class="px-5 py-4 text-slate-700">Évaluer la cause racine d'un dysfonctionnement</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-600"><span class="w-2.5 h-2.5 rounded-full bg-orange-400 inline-block"></span>Compétent</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac32-01" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC32.02</span></td>
+              <td class="px-5 py-4 text-slate-700">Proposer une solution corrective à un dysfonctionnement</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-600"><span class="w-2.5 h-2.5 rounded-full bg-orange-400 inline-block"></span>Compétent</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac32-02" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC32.03</span></td>
+              <td class="px-5 py-4 text-slate-700">Produire une procédure d'essais pour valider la conformité d'un système</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-400"><span class="w-2.5 h-2.5 rounded-full bg-orange-200 inline-block"></span>En progression</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac32-03" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- MAINTENIR -->
+    <section class="space-y-4">
+      <div class="flex items-center gap-3">
+        <div class="w-1.5 h-7 bg-orange-500 rounded-full"></div>
+        <h2 class="text-xl font-bold text-slate-900">Maintenir</h2>
+        <span class="text-xs text-slate-400 font-medium">Assurer la continuité de fonctionnement d'un système</span>
+      </div>
+
+      <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-slate-50 border-b border-slate-100 text-left">
+              <th class="px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider w-32">Code</th>
+              <th class="px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">Apprentissage critique</th>
+              <th class="px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider w-36 text-center">Niveau</th>
+              <th class="px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider w-28 text-center">Preuve</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-50">
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC23.01</span></td>
+              <td class="px-5 py-4 text-slate-700">Exécuter l'entretien et le contrôle d'un système en respectant une procédure</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-400"><span class="w-2.5 h-2.5 rounded-full bg-orange-200 inline-block"></span>En progression</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac23-01" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC23.02</span></td>
+              <td class="px-5 py-4 text-slate-700">Exécuter une opération de maintenance corrective, préventive, améliorative</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-400"><span class="w-2.5 h-2.5 rounded-full bg-orange-200 inline-block"></span>En progression</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac23-02" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC23.03</span></td>
+              <td class="px-5 py-4 text-slate-700">Diagnostiquer un dysfonctionnement dans un système</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-600"><span class="w-2.5 h-2.5 rounded-full bg-orange-400 inline-block"></span>Compétent</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac23-03" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC23.04</span></td>
+              <td class="px-5 py-4 text-slate-700">Identifier la cause racine du dysfonctionnement</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-600"><span class="w-2.5 h-2.5 rounded-full bg-orange-400 inline-block"></span>Compétent</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac23-04" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC33.01</span></td>
+              <td class="px-5 py-4 text-slate-700">Proposer une solution de maintenance</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-400"><span class="w-2.5 h-2.5 rounded-full bg-orange-200 inline-block"></span>En progression</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac33-01" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC33.02</span></td>
+              <td class="px-5 py-4 text-slate-700">Évaluer les coûts d'indisponibilité et de maintenance d'un système</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-400"><span class="w-2.5 h-2.5 rounded-full bg-slate-200 inline-block"></span>Débutant</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac33-02" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC33.03</span></td>
+              <td class="px-5 py-4 text-slate-700">Produire une procédure de maintenance</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-400"><span class="w-2.5 h-2.5 rounded-full bg-slate-200 inline-block"></span>Débutant</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac33-03" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- INTÉGRER & INSTALLER -->
+    <section class="space-y-4">
+      <div class="flex items-center gap-3">
+        <div class="w-1.5 h-7 bg-orange-500 rounded-full"></div>
+        <h2 class="text-xl font-bold text-slate-900">Intégrer & Installer</h2>
+        <span class="text-xs text-slate-400 font-medium">Planifier, installer et mettre en service des équipements</span>
+      </div>
+
+      <div class="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-slate-50 border-b border-slate-100 text-left">
+              <th class="px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider w-32">Code</th>
+              <th class="px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider">Apprentissage critique</th>
+              <th class="px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider w-36 text-center">Niveau</th>
+              <th class="px-5 py-3 text-xs font-semibold text-slate-500 uppercase tracking-wider w-28 text-center">Preuve</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-50">
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC24.01</span></td>
+              <td class="px-5 py-4 text-slate-700">Appliquer la procédure d'installation d'un système</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-600"><span class="w-2.5 h-2.5 rounded-full bg-orange-400 inline-block"></span>Compétent</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac24-01" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC24.02</span></td>
+              <td class="px-5 py-4 text-slate-700">Exécuter la mise en service d'un système en respectant la procédure</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-600"><span class="w-2.5 h-2.5 rounded-full bg-orange-400 inline-block"></span>Compétent</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac24-02" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC34.01</span></td>
+              <td class="px-5 py-4 text-slate-700">Planifier l'installation et la mise en service d'un nouvel équipement</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-400"><span class="w-2.5 h-2.5 rounded-full bg-orange-200 inline-block"></span>En progression</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac34-01" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC34.02</span></td>
+              <td class="px-5 py-4 text-slate-700">Produire une procédure d'installation et de mise en service d'un système</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-orange-400"><span class="w-2.5 h-2.5 rounded-full bg-orange-200 inline-block"></span>En progression</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac34-02" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+            <tr class="hover:bg-slate-50 transition-colors">
+              <td class="px-5 py-4"><span class="text-xs font-bold text-orange-600 bg-orange-50 px-2 py-1 rounded-md border border-orange-100">AC34.03</span></td>
+              <td class="px-5 py-4 text-slate-700">Produire le dossier de conformité du système en gérant le versionnage</td>
+              <td class="px-5 py-4 text-center"><span class="inline-flex items-center gap-1.5 text-xs font-semibold text-slate-400"><span class="w-2.5 h-2.5 rounded-full bg-slate-200 inline-block"></span>Débutant</span></td>
+              <td class="px-5 py-4 text-center"><a href="viewer.html?ac=ac34-03" class="text-xs font-semibold text-slate-500 hover:text-orange-500 transition-colors">Voir →</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="bg-white py-8 border-t border-slate-200 mt-12">
+    <div class="max-w-5xl mx-auto px-4 text-center text-sm text-slate-500">
+      &copy; 2026 Sylvestre Ibara. Tous droits réservés.
+    </div>
+  </footer>
+
+</body>
+</html>
